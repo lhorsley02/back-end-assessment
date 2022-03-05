@@ -6,19 +6,40 @@
   <body class="container">
     <button id="complimentButton">Get a compliment</button>
     <button id="fortuneButton">Get your fortune!</button>
+    </br>
 
-    <form id="dessert-form">
-      <h1>Enter a dessert for a surprise!</h1>
-      <input 
-          type='text'
-          id="dessert"
-          placeholder="Enter dessert here!"/>
-      <button id="getDessert">Here it is!</button>
-    </form>
+    <input
+      type="text"
+      id="desInput"
+      placeholder="Enter a dessert here!"/>
+    <button id="dessertButton">Give dessert</button>
+    </br>
+
+    <button id="askBackButton">Can I have it back?</button>
+    </br>
+    <button id="pleaseButton">Please?</button>
+    </br>
+
+    <input
+      id="delInput"
+      placeholder="Which one? (index number)"/>
+    <button id="deleteButton">Take dessert back</button>
+    </br>
+
+    <input
+      type="text"
+      id="updateDessertInput"
+      placeholder="Enter updated dessert name"/>
+    <input
+      id="indexToUpdate"
+      placeholder="Enter index of old dessert"/>
+    <button id="updateButton">Update Dessert</button>
+    </br>
+
+    <button id="getFinalDessertList">See Dessert List</button>
 
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script>
+    <script src="main.js">
     </script>
-
   </body>
 </html>
